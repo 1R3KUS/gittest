@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(31, 31, 31);
+  font-family: sans-serif;
+}
+
+.box {
+  color: #fff;
+  display: grid;
+  grid-template-areas:
+    'one one one'
+    'two two three'
+  ;
+  grid-template-rows: 80px 90px 70px;
+  grid-template-columns: 20% 30% 15%;
+  grid-gap: 10px;
+}
+
+.box div {
+  background-color: #001fcf;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
